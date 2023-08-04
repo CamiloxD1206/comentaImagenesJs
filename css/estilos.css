@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+.div-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid black 2px;
+    padding: 2%;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.borrar-tweet {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    border: 0;
+    padding: 1%;
+}
+
+.like-tweet {
+    background-color: rgb(179, 178, 178);
+    border-radius: 5px;
+    border: 0;
+    padding: 1%;
+}
+
+.botonmegusta2 {
+    background-color: rgb(24, 157, 0);
+    border-radius: 5px;
+    border: 0;
+    padding: 1%;
+}
+
+#contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
